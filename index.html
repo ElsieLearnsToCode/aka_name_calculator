@@ -13,7 +13,7 @@
        <!-- Navigation pane -->
        <div class="row" id="nav">
            <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">Akan Name Calculator</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link active" aria-current="page" href="about">About</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Calculator</a>
@@ -41,13 +41,31 @@
            </div>
         </div>
     <!-- Landing page with carousel -->
-        <div class="row">
+        <div class="row" id="carousel">
             <div class="col-md-12">
-                <!-- add images for carousel section/landing page -->
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./images/kente-750x375.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/kitenge.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/kente.jpg.crdownload" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                  </div>
             </div>
         </div>
     <!-- About the calculator section -->
-        <div class="row">
+        <div class="row" id="about">
             <div class="col-md-6">
                 <!-- image goes here -->
             </div>
@@ -58,7 +76,7 @@
         </div>
 
         <!-- Gallery -->
-        <div class="row">
+        <div class="row" id="gallery">
             <div class="col-md-6">
                 <!-- gallery -->
             </div>
@@ -67,7 +85,7 @@
 
         <!-- footer section -->
 
-        <div class="row">
+        <div class="row" id="footer">
             <div class="col-md-12">
 
             </div>
