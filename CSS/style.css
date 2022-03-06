@@ -17,5 +17,26 @@ body {
 }
 
 .card-body {
-    width: 80em%;
+    width: 80em;
 }
+
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+
+#form {
+    background-color: rgb(216, 198, 176);
+    width: 80em;
+}
+
+.form-group {
+    margin: 20px, 50px, 20px, 50px;
+}
+
+button {
+     margin-top: 20px;
+ }
+
+
