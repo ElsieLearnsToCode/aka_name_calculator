@@ -18,6 +18,7 @@ body {
 
 .card-body {
     width: 80em;
+    background-color: rgb(216, 198, 176);
 }
 
 h1 {
@@ -38,5 +39,6 @@ h1 {
 button {
      margin-top: 20px;
  }
+
 
 
