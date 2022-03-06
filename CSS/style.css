@@ -12,3 +12,10 @@ body {
     background-color: rgb(216, 198, 176);
 }
 
+.card {
+    width: 80em;
+}
+
+.card-body {
+    width: 80em%;
+}
