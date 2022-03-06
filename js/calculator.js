@@ -1,0 +1,3 @@
+function akanNameCalculator (number) {
+    let 
+}
