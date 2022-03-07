@@ -40,5 +40,19 @@ button {
      margin-top: 20px;
  }
 
+.footer {
+    background-color: rgb(15, 15, 15) ;
+    padding: 15px;
+}
 
+.footer p{
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    color: rgb(14, 13, 12);
+    background-color: rgb(161, 128, 87);
+    margin: 10px;
+}
 
