@@ -127,30 +127,34 @@
         </div>
         <div class="row" id="form" name="gender">
             <h1>Find out your Akan Name Below</h1>
-            <div class="col-md-6">
-                <form>
-                    <div class="form-group" id="Gender" name="gender">
-                      <label for="exampleInputGender">Gender
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Choose Gender</option>
-                            <option value="Female">Female</option>
-                            <option value="Male">Male</option>
-                            <input type="text" id="Gender" name="gender">
-                          </select>
-                      </label>
-                    </div>
-                    <div class="form-group" id="dateofbirth">
-                      <label for="exampleInputGender">Date of Birth
-                        <input type="date" id="birthday" name="birthday">
-                          </select>
-                      </label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
-            </div>
-
-        </div>
-
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="email">Gender
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Choose Gender</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Enter Century</label>
+            <input type="number" class="form-control" id="centruy">
+          </div>
+          <div class="form-group">
+            <label for="month">Enter Day of Birth</label>
+            <input type="number" class="form-control" id="day">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Enter Birth Month</label>
+            <input type="month" class="form-control" id="month">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Enter Year of Birth</label>
+            <input type="year" class="form-control" id="year">
+          </div>
+          <button type="submit" class="btn btn-primary">calculate</button>
+        </form>
         <!-- footer section -->
         <div class="row" id="footer">
             <div class="col-md-12">
