@@ -121,57 +121,45 @@
                             </tbody>
                           </table>
             </div>
-            <!-- Calculator Input Form -->
-            <form class="row g-3 needs-validation" novalidate>
-              
-              <select id=""> <Label>Gender</Label>
-                <option>Male</option>
-                <option>Female</option>
-              </select>
-              <div class="col-md-4">
-                <label for="validationCustom01" class="form-label">Day of Birth</label>
-                <input type="number" class="form-control" id="validationCustom01" value="Mark" required>
-                <div class="valid-feedback">
-                  Looks good!
+      </div>
+  </div>
+  <!-- Calculator Input Form -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Find out your Akan Name Below</h1>
+            <form>
+                <div class="form-group">
+                      <label for="gender">Gender
+                        <select class="form-select">
+                            <option value="Male">Female</option>
+                            <option value="Female">Male</option>
+                          </select>
+                      </label>
                 </div>
-              </div> 
-              <br>
-              <div class="col-md-4">
-                <label for="validationCustom02" class="form-label">Month</label>
-                <input type="number" class="form-control" id="validationCustom02" value="Otto" required>
-                <div class="valid-feedback">
-                  Looks good!
+                <div class="form-group">
+                      <label for="DD">Day of Birth
+                        <input type="number" id="DD" name="dd" value="required">
+                          </select>
+                      </label>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <label for="validationCustom02" class="form-label">Year</label>
-                <input type="number" class="form-control" id="validationCustom02" value="Otto" required>
-                <div class="valid-feedback">
-                  Looks good!
-                </div>
-              </div>
-              <div class="col-md-4">
-                <label for="validationCustom02" class="form-label">Century</label>
-                <input type="number" class="form-control" id="validationCustom02" value="Otto" required>
-                <div class="valid-feedback">
-                  Looks good!
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                  <label class="form-check-label" for="invalidCheck">
-                    Agree to terms and conditions
+                <div class="form-group">
+                  <label for="MM">Month of Birth
+                    <input type="number" id="MM" name="mm" value="required">
+                      </select>
                   </label>
-                  <div class="invalid-feedback">
-                    You must agree before submitting.
-                  </div>
-                </div>
-              </div>
-              <div class="col-12">
-                <button class="btn btn-primary" type="submit">Submit form</button>
-              </div>
+            </div>
+                <div class="form-group">
+                  <label for="yy">Year of Birth
+                    <input type="number" id="YYYY" name="yyyy">
+                      </select>
+                  </label>
+                </div>      
+                <button type="submit" class="btn btn-primary onclick="myFunction(getAkanName)" >Submit</button>
             </form>
+        </div>
+      </div>
+
         <!-- footer section -->
         <div class="row" id="footer">
             <div class="col-md-12">
