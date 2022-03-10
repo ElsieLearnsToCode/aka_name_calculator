@@ -11,4 +11,21 @@ var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
 var Gender = ["Female", "Male"]
 
+// get date of birth and convert it into an integer
+function birthDate(){
+    var day=document.getElementById("DD").value;
+     var DD=parseInt(DD);
+}
+
+// get birth month and convert it into an integer
+function birthMonth(){
+    var day=document.getElementById("MM").value;
+     var DD=parseInt(DD);
+}
+
+// get year and convert it into an integer
+function birthYear(){
+    var day=document.getElementById("YYYY").value;
+     var DD=parseInt(YYYY);
+}
 
