@@ -30,17 +30,16 @@ if (month < 1 || month > 31) {
 }
 
 
-if (d === 0) {
-  alert("Your name is" + "" + maleNames[0] + "" + "because you were born on a" + dayOfWeek[0])
+if (d === 0 && gender === "male") {
+  alert("Your name is" + "" + maleNames[0] + "" + "because you were born on a" + "dayOfWeek[0]")
 }
-else if (d ===0) {
-    alert("Your name is" + "" + femaleNames[0] + "" + "because you were born on a" + dayOfWeek[0])
+else if (d ===0 && gender === "male") {
+    alert("Your name is" + "" + femaleNames[0] + "" + "because you were born on a" + "dayOfWeek[0]")
 }
 
 else {
     alert ("enter valid details")
 }
-
 
 }
 
