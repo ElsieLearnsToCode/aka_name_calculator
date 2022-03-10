@@ -38,15 +38,22 @@ function validateMonth () {
     } else {
       return true;
     }
-  }
+}
 
-function validateDay () {
-     if (date < 1 || dayOfBirth > 30){
+function validateDate () {
+     if (date < 1 || date> 30){
       return false;
     } else {
       return true;
     }
-  }
+}
+
+let validMonth = monthValidator();
+  let validDay = dayValidator();
+
+  // formula for calculating day
+
+let d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
 
 
 
