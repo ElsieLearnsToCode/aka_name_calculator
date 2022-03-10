@@ -128,7 +128,7 @@
         <div class="row">
           <div class="col-md-6">
             <h1>Find out your Akan Name Below</h1>
-            <form>
+            <form id="form" onsubmit="formSubmit(event)">
                 <div class="form-group">
                       <label for="gender">Gender
                         <select class="form-select">
@@ -155,7 +155,7 @@
                       </select>
                   </label>
                 </div>      
-                <button type="submit" class="btn btn-primary onclick="myFunction(getAkanName)" >Submit</button>
+                <button type="submit" class="btn btn-primary" value="submit" onclick="formSubmit">Get Akan Name</button>
             </form>
         </div>
       </div>
