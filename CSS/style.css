@@ -30,10 +30,12 @@ h1 {
 #form {
     background-color: rgb(216, 198, 176);
     width: 80em;
+    padding: 5px;
 }
 
 .form-group {
     padding: 10px;
+    margin: auto;
 }
 
 button {
@@ -55,4 +57,6 @@ button {
     background-color: rgb(161, 128, 87);
     margin: 10px;
 }
+
+
 
